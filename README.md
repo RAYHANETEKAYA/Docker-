@@ -14,13 +14,13 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
 ##### Docker/
     api.py                # Fichier principal du serveur Flask avec les routes API
     templates/
-       index.html            # Fichier HTML pour afficher le menu des pizzas
-├── static/
-│   └── images/           # Dossier contenant les images des pizzas
-├── .env                  # Variables d'environnement (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
-├── pizza_db.sql          # Script SQL pour la création de la base de données et de la table pizza
-├── requirements.txt      # Dépendances Python nécessaires pour le projet
-├── Dockerfile            # Fichier pour construire l'image Docker pour l'application Flask
-├── docker-compose.yml    # Fichier Docker Compose pour définir les services (API et MySQL)
-└── README.md             # Documentation du projet
+       index.html         # Fichier HTML pour afficher le menu des pizzas
+    static/
+       images/            # Dossier contenant les images des pizzas
+    .env                  # Variables d'environnement (DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
+    pizza_db.sql          # Script SQL pour la création de la base de données et de la table pizza
+    requirements.txt      # Dépendances Python nécessaires pour le projet
+    Dockerfile            # Fichier pour construire l'image Docker pour l'application Flask
+    docker-compose.yml    # Fichier Docker Compose pour définir les services (API et MySQL)
+    README.md             # Documentation du projet
 
