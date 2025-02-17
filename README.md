@@ -25,14 +25,14 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
  - **docker-compose.yml** : Fichier Docker Compose pour définir les services (API et MySQL)
  - **README.md** : Documentation du projet
 
-   ## Technologies utilisées :
+## Technologies utilisées :
    - **python**
    - **MySQL**
    - **HTML/CSS**
    - **JavaScript**
    - **Docker**
      
-  ## Construire et lancer le projet avec Docker
+## Construire et lancer le projet avec Docker
   
    - **Se connecter à Docker:**
       docker login
