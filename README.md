@@ -11,7 +11,7 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
 - Ajout de nouvelles pizzas via une API REST.
 - CORS activé pour permettre les requêtes depuis d'autres origines.
 - Conteneurisation complète avec Docker pour l'API Flask et la base de données MySQL.
-##### Docker/
+ Docker/
     api.py                # Fichier principal du serveur Flask avec les routes API
     templates/
        index.html         # Fichier HTML pour afficher le menu des pizzas
