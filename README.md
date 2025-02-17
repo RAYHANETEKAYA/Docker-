@@ -34,9 +34,9 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
    - 
   ## Construire et lancer le projet avec Docker
   
-   - Se connecter à Docker:
+   - **Se connecter à Docker:**
       docker login
-   - Lancer les conteneurs avec Docker Compose :
+   - **Lancer les conteneurs avec Docker Compose :**
       docker-compose up --build
      
   **Ce fichier docker-compose.yml va créer :**
