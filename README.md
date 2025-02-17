@@ -31,7 +31,7 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
    - **HTML/CSS**
    - **JavaScript**
    - **Docker**
-   - 
+     
   ## Construire et lancer le projet avec Docker
   
    - **Se connecter à Docker:**
