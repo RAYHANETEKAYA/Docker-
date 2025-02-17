@@ -25,19 +25,27 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
  - **docker-compose.yml** : Fichier Docker Compose pour définir les services (API et MySQL)
  - **README.md** : Documentation du projet
 
-   ## Technologie utliséz :
+   ## Technologies utilisées :
    - **python**
-   - **Mysql**
-   - **Html/css**
-   - **JS**
+   - **MySQL**
+   - **HTML/CSS**
+   - **JavaScript**
    - **Docker**
-  ## CONSTRUIRE ET LANCER UN projet avec docker
- docker login u
-docker-compose up --- build  ce fichier dockercompose.yml va creer :
- - un conteneuur pour l API flask .
- - un conteneur pour MYSQL.
-## acceder a linterface web  
-http://1277.0.0.1:5000S
+  ## Construire et lancer le projet avec Docker
+   - Se connecter à Docker:
+      docker login
+   - Lancer les conteneurs avec Docker Compose :
+      docker-compose up --build
+  **Ce fichier docker-compose.yml va créer :**
+     - Un conteneur pour l'API Flask.
+     - Un conteneur pour MySQL
+  **Accéder à l'interface web**
+
+Une fois les conteneurs lancés, l'application sera accessible à l'adresse suivante :
+
+http://127.0.0.1:5000
+
+
 
 
 
