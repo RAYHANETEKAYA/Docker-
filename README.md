@@ -27,3 +27,14 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
     docker-compose.yml    # Fichier Docker Compose pour définir les services (API et MySQL)
     README.md             # Documentation du projet
 
+
+📦 pizza-api
+ ┣ 📂 static
+ ┃ ┗ 📂 images  # Contient les images des pizzas
+ ┣ 📂 templates
+ ┃ ┗ 📜 index.html  # Interface web pour afficher les pizzas
+ ┣ 📜 api.py  # Code principal de l'API
+ ┣ 📜 .env  # Variables d'environnement (à ne pas partager sur GitHub)
+ ┣ 📜 requirements.txt  # Dépendances du projet
+ ┣ 📜 Dockerfile  # Configuration Docker
+ ┗ 📜 README.md  # Documentation
