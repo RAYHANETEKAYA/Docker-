@@ -40,6 +40,7 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
       docker-compose up --build
      
   **Ce fichier docker-compose.yml va créer :**
+  
      - Un conteneur pour l'API Flask.
      - Un conteneur pour MySQL.
   **Accéder à l'interface web**
