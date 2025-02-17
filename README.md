@@ -12,6 +12,7 @@ Une application Flask pour afficher un menu de pizzas avec une interface web. Le
 - CORS activé pour permettre les requêtes depuis d'autres origines.
 - Conteneurisation complète avec Docker pour l'API Flask et la base de données MySQL.
 
+## Structure du projet
 
  **Docker/**
  - **api.py** : Fichier principal du serveur Flask avec les routes API.
